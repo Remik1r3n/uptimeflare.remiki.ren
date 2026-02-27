@@ -28,7 +28,7 @@ const workerConfig: WorkerConfig = {
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://blog.remiki.ren',
+      target: 'https://blog.remiki.ren/robots.txt',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
       tooltip: "Remi's Blog",
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
@@ -63,7 +63,7 @@ const workerConfig: WorkerConfig = {
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://vault.remiki.ren',
+      target: 'https://vault.remiki.ren/robots.txt',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
       tooltip: "Remi's Vaultwarden (Private)",
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
@@ -77,6 +77,7 @@ const workerConfig: WorkerConfig = {
         'User-Agent': 'Uptimeflare',
         //Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
+    },
     // Example TCP Monitor
     /*
     {
